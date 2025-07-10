@@ -228,6 +228,7 @@ This project shows how unsupervised learning, particularly **Isolation Forest**,
 ---
 ## 📊 Visual Results & Analysis
 
+
 ### 📌 Confusion Matrix – Autoencoder
 
 ![Autoencoder Confusion Matrix](outputs/confusion_autoencoder.png)
@@ -242,7 +243,8 @@ This project shows how unsupervised learning, particularly **Isolation Forest**,
 - ⚠️ **Conclusion**: The autoencoder struggles with this dataset — most anomaly instances are missed.
 
 ---
-<img width="1235" height="1544" alt="Screenshot 2025-07-10 220915" src="https://github.com/user-attachments/assets/80ae272c-dec7-44fa-b9ff-8af7b1a9a854" />
+
+<img width="1185" height="1713" alt="Screenshot 2025-07-10 220839" src="https://github.com/user-attachments/assets/e8af091a-90f7-4e31-96d0-15a063fa1706" />
 
 ### 📌 Confusion Matrix – Isolation Forest
 
@@ -257,9 +259,8 @@ This project shows how unsupervised learning, particularly **Isolation Forest**,
 - 🔍 Very few false negatives — most anomalies were correctly detected.
 - 🎯 **Conclusion**: Isolation Forest is highly effective for this use case.
 
----
-<img width="1271" height="1669" alt="Screenshot 2025-07-10 220858"
-src="https://github.com/user-attachments/assets/d26aa207-2af4-4214-a479-7a7d58558d89" />
+---<img width="1271" height="1669" alt="Screenshot 2025-07-10 220858" src="https://github.com/user-attachments/assets/33b6bb68-147e-4c50-9935-972c9179c7d6" />
+
 
 ### 📉 ROC Curve – Isolation Forest (⚠️ Mismatch)
 
@@ -270,18 +271,7 @@ src="https://github.com/user-attachments/assets/d26aa207-2af4-4214-a479-7a7d5855
 - 🛠️ **Recommended Fix**: Ensure the ROC is plotted using proper `anomaly_score` values and correct label orientation.
 
 ---
+<img width="1235" height="1544" alt="Screenshot 2025-07-10 220915" src="https://github.com/user-attachments/assets/af5abfcc-e7f8-4d97-814f-e8a82fbff2ee" />
 
-## ✅ Summary: Which Model Performs Better?
 
-| Metric             | Isolation Forest      | Autoencoder           |
-|--------------------|------------------------|------------------------|
-| **Accuracy**       | ✅ 97%                  | ❌ 24%                  |
-| **ROC AUC**        | ✅ 0.9459               | ❌ 0.5134               |
-| **Recall (Anomaly)** | ✅ 99%                 | ❌ 6%                   |
-| **False Negatives**| ✅ 3,222                | ❌ 374,818              |
-
-### 🔚 Final Verdict:
-**Isolation Forest** is the recommended model for detecting anomalies in network traffic based on KDD Cup 1999 data. It clearly outperforms the Autoencoder in all critical evaluation metrics.
-
-<img width="1185" height="1713" alt="Screenshot 2025-07-10 220839" src="https://github.com/user-attachments/assets/353db140-8039-4d45-a9f2-a28e17ecf87f" />
 
