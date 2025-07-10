@@ -259,8 +259,8 @@ This project shows how unsupervised learning, particularly **Isolation Forest**,
 - 🔍 Very few false negatives — most anomalies were correctly detected.
 - 🎯 **Conclusion**: Isolation Forest is highly effective for this use case.
 
----<img width="1271" height="1669" alt="Screenshot 2025-07-10 220858" src="https://github.com/user-attachments/assets/33b6bb68-147e-4c50-9935-972c9179c7d6" />
 
+<img width="1271" height="1669" alt="Screenshot 2025-07-10 220858" src="https://github.com/user-attachments/assets/20c167d6-7c39-44e5-871c-7a08428ba3ee" />
 
 ### 📉 ROC Curve – Isolation Forest (⚠️ Mismatch)
 
@@ -271,7 +271,4 @@ This project shows how unsupervised learning, particularly **Isolation Forest**,
 - 🛠️ **Recommended Fix**: Ensure the ROC is plotted using proper `anomaly_score` values and correct label orientation.
 
 ---
-<img width="1235" height="1544" alt="Screenshot 2025-07-10 220915" src="https://github.com/user-attachments/assets/af5abfcc-e7f8-4d97-814f-e8a82fbff2ee" />
-
-
-
+<img width="1235" height="1544" alt="Screenshot 2025-07-10 220915" src="https://github.com/user-attachments/assets/c6d96131-9b51-425e-85b3-3fb9ba31e19e" />
